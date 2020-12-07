@@ -2,7 +2,7 @@
 ## Assignment 7
 **Name: Hamidullah Muslih**
 
-You can compile the C files in linux terminal whith `gcc -o <bin-filename> -w <filename.c> ` command.
+You can compile the C files in linux terminal with `gcc -o <bin-filename> -w <filename.c> ` command.
 The files are seperated for the sake of lab sequence.
 The final version covers all the final code in one file.
 
