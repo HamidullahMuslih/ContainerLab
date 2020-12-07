@@ -10,7 +10,7 @@ static char child_stack[1048576];
 static int child_fn() {
   printf("New Container's PID: %ld\n", (long)getpid());
   printf("Parent PID: %ld\n", (long)getppid());
-  printf("New (container) `data structure` Namespace:\n");
+  printf("New (container) `net` Namespace:\n");
   system("ip link");
   printf("\n\n");
   return 0;
@@ -18,7 +18,7 @@ static int child_fn() {
 
 int main() {
   printf("New Container's PID: %ld\n", (long)getpid());
-  printf("Original (Host) `data structure` Namespace:\n");
+  printf("Original (Host) `net` Namespace:\n");
   system("ip link");
   printf("\n\n");
 
